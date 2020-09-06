@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Signin Demo</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>   
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom right, lightblue, lightgreen);
+}
+</style>
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+		<div class="container" style="text-align: center;">
+				<h2>Udaan Box Office</h2>
+		</div>  
+	</nav>
+    <div class="container" style="text-align: center;">
+	    {% block content %}	
+	    {% endblock content %}
+    </div>
+</body>

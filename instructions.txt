@@ -1,0 +1,22 @@
+How to run?
+Steps:
+	1. Install python 3.6.5 on your local machine
+	2. Install modules mentioned in requirements.txt 
+		type 'pip install -r requirements.txt' in cmd
+	3. migrate the mysql database
+		a. type 'python manage.py makemigrations' in cmd
+				&
+		b. type 'python manage.py migrate' in cmd
+	4. run the server using 'python manage.py runserver 0.0.0.0:9090'
+
+	finally, the project is ready to run.
+
+	type url 'localhost:9090/login' to view the login page and login using google oauth.
+
+Brief Info about the tools used:
+
+I have used Django framework which is python framework. It has MVC structure.
+I have used mysql database. It has two tables - screen and seat.
+Every apis are designed according to the instructions given in the challenge.
+
+View the screenshots present in the folder.
